@@ -46,6 +46,13 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+      <div className="flex bg-amazonclone-light_blue text-white space-x-3 text-xs">
+        <div>Today's Deals</div>
+        <div>Customer Service</div>
+        <div>Registry</div>
+        <div>Gift Cards</div>
+        <div>Sell</div>
+      </div>
     </header>
   );
 };
