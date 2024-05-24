@@ -4,7 +4,6 @@ const HomePage = () => {
   return (
     <div className="bg-amazonclone-background">
       <div className="min-w-[1000px] max-w-[1500px] m-auto bg-purple-500">
-        testing
         <Carousel />
         <div className="grid grid-cols-3 xl:grid-cols-4 -mt-80">
           <HomePageCard
@@ -53,6 +52,9 @@ const HomePage = () => {
         </div>
         <CarouselProduct />
         <CarouselCategory />
+        <div className="h-[200px]">
+          <img className="h-[100%] m-auto" src={"../images/banner_image.jpg"} />
+        </div>
       </div>
     </div>
   );
