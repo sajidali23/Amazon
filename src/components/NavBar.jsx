@@ -1,5 +1,5 @@
 import React from "react";
-import { Search } from "./";
+import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
@@ -16,7 +16,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="flex grow relative items-center">
-          <Search />
+          <SearchBar />
         </div>
         <div className="flex items-center m-4">
           <div className="pr-4 pl-4">

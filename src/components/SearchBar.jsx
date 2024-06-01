@@ -1,6 +1,6 @@
 import React from "react";
 
-const Search = () => {
+const SearchBar = () => {
   return (
     <div className="w-[100%]">
       <div className="flex items-center h-10 bg-amazonclone-yellow rounded">
@@ -38,4 +38,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default SearchBar;
