@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { callAPI } from "../utlis/CallApi";
+import { useDispatch } from "react-redux";
 import { GB_CURRENCY } from "../utlis/constants";
 import ProductDetails from "./ProductDetails.jsx";
 import { addToCart } from "../redux/cartSlice";
